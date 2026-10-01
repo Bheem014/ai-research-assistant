@@ -5,7 +5,7 @@ class Settings(BaseSettings):
     app_name: str = "AI Research Assistant"
     environment: str = "development"
 
-    tavily_api_key: str ="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"
+    tavily_api_key: str
 
     ollama_host: str = "http://localhost:11434"
     ollama_model: str = "llama3.2:1b"
